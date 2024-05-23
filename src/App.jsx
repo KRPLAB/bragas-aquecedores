@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Header } from "./components/Header";
 import { BannerSection } from "./components/BannerSection";
+import { ContactSection } from "./components/ContactSection";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
         <Header />
         <BannerSection />
+        <ContactSection />
     </div>
   )
 }

@@ -1,13 +1,14 @@
 import { useForm } from "react-hook-form";
 import { InputField } from "../fragments/InputField";
 import { TextAreaField } from "../fragments/TextAreaField";
+import styles from "./contactSection.module.scss";
 
 export const ContactSection = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
 
     return (
-        <div>
+        <section className={styles.contactSection}>
             <h2>Contato</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <InputField
@@ -50,6 +51,6 @@ export const ContactSection = () => {
                 />
                 <input type="submit" />
             </form>
-        </div>
+        </section>
     );
 }

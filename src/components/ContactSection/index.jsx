@@ -8,7 +8,7 @@ export const ContactSection = () => {
     const onSubmit = data => console.log(data);
 
     return (
-        <section className={styles.contactSection}>
+        <section className={styles.contactSection} id="contact">
             <h2>Contato</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <InputField

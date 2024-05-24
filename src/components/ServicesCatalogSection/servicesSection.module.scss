@@ -1,0 +1,34 @@
+.servicesSection {
+    width: 100%;
+    margin-bottom: 3.75rem;
+
+    ul {
+        margin-top: 1rem;
+        display: flex;
+
+        justify-content: space-between;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 11.5625rem;
+            height: 25rem;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 725px) {
+    .servicesSection {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .serviceCard {
+        width: 20.75rem;
+    }
+}

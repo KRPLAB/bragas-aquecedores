@@ -1,5 +1,5 @@
 import { ListItemsMenu } from "../fragments/ListItemsMenu";
-import principal_logo from "../../assets/principal_logo.svg";
+import principal_logo from "../../assets/logos/principal_logo.svg";
 import styles from "./headerStyle.module.scss";
 
 export const Header = () => {

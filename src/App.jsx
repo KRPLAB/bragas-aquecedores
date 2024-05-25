@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { BannerSection } from "./components/BannerSection";
 import { ContactSection } from "./components/ContactSection";
 import { ServicesCatalogSection } from "./components/ServicesCatalogSection";
+import { Footer } from "./components/Footer";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <BannerSection />
         <ServicesCatalogSection />
         <ContactSection />
+        <Footer />
     </div>
   )
 }

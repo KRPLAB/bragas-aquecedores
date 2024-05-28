@@ -48,8 +48,9 @@ export const ContactSection = () => {
                     register={register}
                     rules={{ required: true }}
                     errors={errors}
+                    classTextArea={styles.textAreaBox}
                 />
-                <input type="submit" />
+                <button type="submit">Enviar</button>
             </form>
         </section>
     );

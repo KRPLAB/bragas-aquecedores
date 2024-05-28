@@ -1,0 +1,10 @@
+.default__input {
+    color: var(--color-grey-1);
+    background-color: var(--color-grey-5);
+    border: 1pt solid var(--color-grey-2);
+    border-radius: var(--radius-1);
+}
+
+.default__input:focus {
+    border: 1pt solid var(--color-secondary-5);
+}

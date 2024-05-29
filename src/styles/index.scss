@@ -25,6 +25,77 @@ body {
     .App {
         width: 100%;
     }
+
+    .swiper-slide {
+        width: auto;
+        height: 21.5rem;
+        position: relative;
+
+        img {
+            width: auto;
+            height: 21.5rem;
+            border-radius: 0.5rem;
+            object-fit: cover;
+        }
+    }
+
+    .swiper-slide-shadow-left,
+    .swiper-slide-shadow-right {
+        display: block;
+        box-shadow: var(--color-secondary);
+    }
+
+    .slider-controler {
+        position: relative;
+        bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider-controler .swiper-button-next {
+        left: 58% !important;
+        transform: translateX(-58%) !important;
+    }
+
+    .swiper-container {
+        height: 30rem;
+        padding: 2rem 0;
+        position: relative;
+    }
+
+    .slider-controler .slider-arrow {
+        background: var(--white);
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        left: 42%;
+        transform: translateX(-42%);
+        filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+    }
+
+    .slider-controler .slider-arrow ion-icon {
+        font-size: 2rem;
+        color: #222224;
+    }
+    
+    .slider-controler .slider-arrow::after {
+        content: '';
+    }
+    
+    .swiper-pagination {
+        position: relative;
+        width: 15rem !important;
+        bottom: 1rem;
+    }
+    
+    .swiper-pagination .swiper-pagination-bullet {
+        filter: drop-shadow(0rem 0.5rem 1.5rem var(--color-white-opacity));
+    }
+    
+    .swiper-pagination .swiper-pagination-bullet-active {
+        background: var(--color-primary-5);
+    }
 }
 
 @media (max-width: 725px) {

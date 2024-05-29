@@ -9,7 +9,7 @@ export const ContactSection = () => {
 
     return (
         <section className={styles.contactSection} id="contact">
-            <h2>Contato</h2>
+            <h2 className="font-title-2">Contato</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <InputField
                     label="Nome"
@@ -50,7 +50,7 @@ export const ContactSection = () => {
                     errors={errors}
                     classTextArea={styles.textAreaBox}
                 />
-                <button type="submit">Enviar</button>
+                <button className="default__button" type="submit">Enviar</button>
             </form>
         </section>
     );

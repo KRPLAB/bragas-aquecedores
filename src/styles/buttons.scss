@@ -1,0 +1,16 @@
+.default__button {
+    width: max-content;
+    height: 2.5rem;
+    padding: var(--gap-4) var(--gap-1);
+    background-color: var(--color-primary-enable);
+    color: var(--color-white-fixed);
+    border-radius: var(--radius-1);
+    border: none;
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-3);
+    cursor: pointer;
+}
+
+.default__button:hover {
+    background-color: var(--color-primary-Hover);
+}

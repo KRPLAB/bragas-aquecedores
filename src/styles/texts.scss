@@ -28,6 +28,13 @@
     font-weight: var(--font-weight-3);
 }
 
+.error-input {
+    color: var(--color-error-dark-red);
+    font-size: var(--font-text-1-mobile);
+    font-weight: var(--font-weight-3);
+    padding-bottom: 1rem;
+}
+
 .font-link-1 {
     font-size: var(--font-text-1);
     font-weight: var(--font-weight-1);

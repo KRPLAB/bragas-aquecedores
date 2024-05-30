@@ -3,7 +3,7 @@ export const TextAreaField = ({ label, register, rules, errors, classTextArea })
         <div className={classTextArea}>
             <label>{label}</label>
             <textarea className="default__input" {...register(label.toLowerCase(), rules)} />
-            {errors[label.toLowerCase()] && <span>{label} é obrigatório</span>}
+            {errors[label.toLowerCase()] && <span className="error-input">{label} é obrigatório</span>}
         </div>
     );
 }

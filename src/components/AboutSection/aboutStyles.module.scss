@@ -1,3 +1,21 @@
-.declaration {
-    font-style: italic;
+.aboutSection {
+    padding-top: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+
+    h2 {
+        padding-bottom: 1.5rem;
+    }
+
+    .declaration {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+        p {
+            align-self: flex-end;
+            font-style: italic;
+            width: 39.6875rem;
+        }
+    }
 }

@@ -14,27 +14,22 @@ export const Footer = () => {
                 </div>
 
                 <div className={styles.brandContact}>
-                    <span>
+                    <span className="font-text-1">
                         <img src={whats} alt="logotipo whatsapp" />
                         (41) 99581-2924
                     </span>
-                    <span>(41) 3319-3227</span>
-                    <p>bragasaquecedores@yahoo.com.br</p>
-                    <p>Rua Guilherme Weigert, 160 - loja 03 - Roça Grande, Colombo - PR</p>
-                    <p>seg à sex: 08:30 – 18:00 | sáb: 08:30 – 13:00</p>
+                    <span className="font-text-1">(41) 3319-3227</span>
+                    <p className="font-text-1">bragasaquecedores@yahoo.com.br</p>
+                    <p className="font-text-1">Rua Guilherme Weigert, 160 - loja 03 - Roça Grande, Colombo - PR</p>
+                    <p className="font-text-1">seg à sex: 08:30 – 18:00 | sáb: 08:30 – 13:00</p>
                 </div>
 
                 <div className={styles.brandSocialMedia}>
-                    <p>Redes sociais</p>
+                    <p className="font-text-1">Redes sociais</p>
                     <img src={face} alt="" />
                     <img src={insta} alt="" />
-                    <p>&copy; 2013 - 2024 Bragás</p>
+                    <p className="font-text-1">&copy; 2013 - 2024 Bragás</p>
                 </div>
-            </div>
-
-            <div className={styles.teamDevInfo}>
-                <p>UX/UI - Raissa Lizieri Leite Mellado</p>
-                <p>Web Dev - Kauan da Rosa Paulino</p>
             </div>
         </footer>
     )

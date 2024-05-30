@@ -1,5 +1,5 @@
 .footerSection {
-    width: 100;
+    width: 100%;
     background-color: var(--color-secondary);
     display: flex;
     flex-direction: column;
@@ -7,6 +7,8 @@
     justify-content: space-between;
     margin-top: 1.5rem;
     color: var(--color-white-fixed);
+    padding-bottom: .5rem;
+    padding-top: 1rem;
 
     .brandFooterInfos {
         width: 100%;
@@ -28,15 +30,22 @@
 
             flex-direction: column;
             span {
+                padding-bottom: .5rem;
                 img {
                     width: 1.125rem;
                     height: 1.125rem;
                 }
             }
+            p {
+                padding-bottom: .5rem;
+            }
 
         }
 
         .brandSocialMedia {
+            p {
+                padding-bottom: .5rem;
+            }
             img {
                 width: 1.5rem;
                 height: 1.5rem;

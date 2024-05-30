@@ -1,6 +1,8 @@
 .servicesSection {
     width: 100%;
-    margin-bottom: 3.75rem;
+    padding-top: 3rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
 
     ul {
         margin-top: 1rem;
@@ -13,10 +15,15 @@
             flex-direction: column;
             align-items: center;
             width: 11.5625rem;
-            height: 25rem;
+            height: 22rem;
 
             img {
                 width: 100%;
+            }
+
+            span {
+                padding-top: .5rem;
+                text-align: center;
             }
         }
     }

@@ -11,6 +11,20 @@
     cursor: pointer;
 }
 
+.button__cotation {
+    width: max-content;
+    height: 2.5rem;
+    padding: var(--gap-4) var(--gap-1);
+    background-color: transparent;
+    color: var(--color-white-fixed);
+    border-radius: var(--radius-1);
+    border: 2pt solid var(--color-white-fixed);
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-3);
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
 .default__button:hover {
     background-color: var(--color-primary-Hover);
 }

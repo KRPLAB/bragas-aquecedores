@@ -14,14 +14,16 @@ body {
     border-top: 1rem solid var(--color-secondary);
 }
 
-#root {
+#root,
+.App {
     align-self: center;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    .App {
+    main {
         width: 75%;
     }
+
 }

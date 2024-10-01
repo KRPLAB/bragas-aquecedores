@@ -10,10 +10,12 @@ export const App = () => {
   return (
     <div className="App">
       <Header />
-      <BannerSection />
-      <ServicesCatalogSection />
-      <AboutSection />
-      <ContactSection />
+      <main>
+        <BannerSection />
+        <ServicesCatalogSection />
+        <AboutSection />
+        <ContactSection />
+      </main>
       <Footer />
     </div>
   )

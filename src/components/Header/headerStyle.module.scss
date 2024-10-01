@@ -1,9 +1,10 @@
 .headerSection {
-    width: 100%;
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
+    border: 5pt solid green;
 
     ul {
         width: 18.75rem;

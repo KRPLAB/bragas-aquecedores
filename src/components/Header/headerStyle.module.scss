@@ -1,10 +1,15 @@
 .headerSection {
-    width: 75%;
+    width: 85%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
     border: 5pt solid green;
+
+    img {
+        width: 9.0625rem;
+        height: auto;
+    }
 
     ul {
         width: 18.75rem;
